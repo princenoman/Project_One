@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+}
+
+.header_content {
+	width: 100%;
+	border-bottom: 1px solid #ececec;
+	overflow: hidden;
+}
+.logo {
+	width: 25%;
+	float: left;
+}
+.logo img {
+	height: 50px;
+}
+
+nav {
+	width: 40%;
+	float: right;
+	padding-top: 20px;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	margin-right: 5%;
+}
+
+.main_content {
+	padding: 0px 20%;
+}
+.main_content h1:first-child {
+	margin-top: 100px;
+	font-size: 50px;
+}
+
+.main_content h1:nth-child(2) {
+	color: #6c63ff;
+	font-size: 50px;
+}
+
+.main_content img {
+	width: 70%;
+	padding: 10% 0;
+}
+.main_content p {
+	color: dimgray;
+	font-size: 16px;
+}
+
+.maint_client_area {
+	width: 60%;
+	padding: 0px 20%;
+	overflow: hidden;
+}
+.left_content {
+	float: left;
+	width: 45%;
+	text-align: right;
+}
+
+.left_content h1 {
+	color: #6c63ff;
+	font-size: 45px;
+}
+
+.left_content p {
+	color: dimgray;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.right_content {
+	float: right;
+	width: 45%;
+	text-align: left;
+}
+
+.right_content h1 {
+	color: #ff0092;
+	font-size: 45px;
+	line-height: 1.2em;
+}
+
+.services {
+	width: 70%;
+	overflow: hidden;
+	margin: 10% 15%;
+}
+
+.services img {
+	width: 80%;
+	height: 250px;
+}
+
+.service_one {
+	float: left;
+	width: 32%;
+	background-color: #feebed;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+
+.service_one h3 {
+	text-align: left;
+	padding: 5px 15px;
+	color: #29296b;
+}
+
+.service_one p {
+	text-align: left;
+	padding: 5px 15px;
+	color: dimgray;
+}
+
+.service_two {
+	float: left;
+	width: 32%;
+	background-color: #e9f9f4;
+	margin: 0 2%;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+
+.service_two h3 {
+	text-align: left;
+	padding: 5px 15px;
+	color: #29296b;
+}
+
+.service_two p {
+	text-align: left;
+	padding: 5px 15px;
+	color: dimgray;
+}
+
+.service_three {
+	float: left;
+	width: 32%;
+	background-color: #fef7e7;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+
+.service_three h3 {
+	text-align: left;
+	padding: 5px 15px;
+	color: #29296b;
+}
+
+.service_three p {
+	text-align: left;
+	padding: 5px 15px;
+	color: dimgray;
+}
+
+.footer {
+	background-color: #6c63ff;
+	height: 100px;
+}
+
+.footer p {
+	text-align: center;
+	padding-top: 45px;
+	color: white;
+}
